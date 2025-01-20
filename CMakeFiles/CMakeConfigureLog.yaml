@@ -1,0 +1,1108 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      VersÃ£o do MSBuild 17.12.12+1cce77968 para .NET Framework
+      CompilaÃ§Ã£o de 17/01/2025 22:05:50 iniciada.
+      
+      Projeto "D:\\Repos\\DiligentEngine\\CMakeFiles\\3.28.0-rc5\\CompilerIdC\\CompilerIdC.vcxproj" no nÃ³ 1 (destinos padrÃ£o).
+      PrepareForBuild:
+        Criando o diretÃ³rio "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Criando o diretÃ³rio "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Criando "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+        Tocando "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\Repos\\DiligentEngine\\CMakeFiles\\3.28.0-rc5\\CompilerIdC\\CompilerIdC.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\Repos\\Cpp\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\Repos\\DiligentEngine\\CMakeFiles\\3.28.0-rc5\\CompilerIdC\\CompilerIdC.exe" "D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' nÃ£o Ã© reconhecido como um comando interno
+        ou externo, um programa operÃ¡vel ou um arquivo em lotes.
+        O comando "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\Repos\\Cpp\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\Repos\\DiligentEngine\\CMakeFiles\\3.28.0-rc5\\CompilerIdC\\CompilerIdC.exe" "D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" foi encerrado com o cÃ³digo 9009.
+        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\Repos\\Cpp\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\Repos\\DiligentEngine\\CMakeFiles\\3.28.0-rc5\\CompilerIdC\\CompilerIdC.exe" "D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Excluindo o arquivo "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Tocando "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Projeto de compilaÃ§Ã£o pronto "D:\\Repos\\DiligentEngine\\CMakeFiles\\3.28.0-rc5\\CompilerIdC\\CompilerIdC.vcxproj" (destinos padrÃ£o).
+      
+      CompilaÃ§Ã£o com Ãªxito.
+          0 Aviso(s)
+          0 Erro(s)
+      
+      Tempo Decorrido 00:00:00.79
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/Repos/DiligentEngine/CMakeFiles/3.28.0-rc5/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      VersÃ£o do MSBuild 17.12.12+1cce77968 para .NET Framework
+      CompilaÃ§Ã£o de 17/01/2025 22:05:51 iniciada.
+      
+      Projeto "D:\\Repos\\DiligentEngine\\CMakeFiles\\3.28.0-rc5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" no nÃ³ 1 (destinos padrÃ£o).
+      PrepareForBuild:
+        Criando o diretÃ³rio "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Criando o diretÃ³rio "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Criando "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+        Tocando "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\Repos\\DiligentEngine\\CMakeFiles\\3.28.0-rc5\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\Repos\\Cpp\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\Repos\\DiligentEngine\\CMakeFiles\\3.28.0-rc5\\CompilerIdCXX\\CompilerIdCXX.exe" "D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' nÃ£o Ã© reconhecido como um comando interno
+        ou externo, um programa operÃ¡vel ou um arquivo em lotes.
+        O comando "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\Repos\\Cpp\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\Repos\\DiligentEngine\\CMakeFiles\\3.28.0-rc5\\CompilerIdCXX\\CompilerIdCXX.exe" "D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" foi encerrado com o cÃ³digo 9009.
+        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\Repos\\Cpp\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\Repos\\DiligentEngine\\CMakeFiles\\3.28.0-rc5\\CompilerIdCXX\\CompilerIdCXX.exe" "D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Excluindo o arquivo "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Tocando "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Projeto de compilaÃ§Ã£o pronto "D:\\Repos\\DiligentEngine\\CMakeFiles\\3.28.0-rc5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (destinos padrÃ£o).
+      
+      CompilaÃ§Ã£o com Ãªxito.
+          0 Aviso(s)
+          0 Erro(s)
+      
+      Tempo Decorrido 00:00:00.80
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/Repos/DiligentEngine/CMakeFiles/3.28.0-rc5/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:12 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Repos/DiligentEngine/CMakeFiles/CMakeScratch/TryCompile-rcy313"
+      binary: "D:/Repos/DiligentEngine/CMakeFiles/CMakeScratch/TryCompile-rcy313"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Repos/DiligentEngine/CMakeFiles/CMakeScratch/TryCompile-rcy313'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_50712.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        VersÃ£o do MSBuild 17.12.12+1cce77968 para .NET Framework
+        CompilaÃ§Ã£o de 17/01/2025 22:05:52 iniciada.
+        
+        Projeto "D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-rcy313\\cmTC_50712.vcxproj" no nÃ³ 1 (destinos padrÃ£o).
+        PrepareForBuild:
+          Criando o diretÃ³rio "cmTC_50712.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Criando o diretÃ³rio "D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-rcy313\\Debug\\".
+          Criando o diretÃ³rio "cmTC_50712.dir\\Debug\\cmTC_50712.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_50712.dir\\Debug\\cmTC_50712.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_50712.dir\\Debug\\cmTC_50712.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_50712.dir\\Debug\\\\" /Fd"cmTC_50712.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33144 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_50712.dir\\Debug\\\\" /Fd"cmTC_50712.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-rcy313\\Debug\\cmTC_50712.exe" /INCREMENTAL /ILK:"cmTC_50712.dir\\Debug\\cmTC_50712.ilk" /NOLOGO /LIBPATH:"D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Repos/DiligentEngine/CMakeFiles/CMakeScratch/TryCompile-rcy313/Debug/cmTC_50712.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Repos/DiligentEngine/CMakeFiles/CMakeScratch/TryCompile-rcy313/Debug/cmTC_50712.lib" /MACHINE:X64  /machine:x64 cmTC_50712.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_50712.vcxproj -> D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-rcy313\\Debug\\cmTC_50712.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\Repos\\Cpp\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-rcy313\\Debug\\cmTC_50712.exe" "D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\bin" "cmTC_50712.dir\\Debug\\cmTC_50712.tlog\\cmTC_50712.write.1u.tlog" "cmTC_50712.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' nÃ£o Ã© reconhecido como um comando interno
+          ou externo, um programa operÃ¡vel ou um arquivo em lotes.
+          O comando "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\Repos\\Cpp\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-rcy313\\Debug\\cmTC_50712.exe" "D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\bin" "cmTC_50712.dir\\Debug\\cmTC_50712.tlog\\cmTC_50712.write.1u.tlog" "cmTC_50712.dir\\Debug\\vcpkg.applocal.log"" foi encerrado com o cÃ³digo 9009.
+          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\Repos\\Cpp\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-rcy313\\Debug\\cmTC_50712.exe" "D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\bin" "cmTC_50712.dir\\Debug\\cmTC_50712.tlog\\cmTC_50712.write.1u.tlog" "cmTC_50712.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Excluindo o arquivo "cmTC_50712.dir\\Debug\\cmTC_50712.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_50712.dir\\Debug\\cmTC_50712.tlog\\cmTC_50712.lastbuildstate".
+        Projeto de compilaÃ§Ã£o pronto "D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-rcy313\\cmTC_50712.vcxproj" (destinos padrÃ£o).
+        
+        CompilaÃ§Ã£o com Ãªxito.
+            0 Aviso(s)
+            0 Erro(s)
+        
+        Tempo Decorrido 00:00:00.82
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:12 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Repos/DiligentEngine/CMakeFiles/CMakeScratch/TryCompile-79spib"
+      binary: "D:/Repos/DiligentEngine/CMakeFiles/CMakeScratch/TryCompile-79spib"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Repos/DiligentEngine/CMakeFiles/CMakeScratch/TryCompile-79spib'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ecbb0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        VersÃ£o do MSBuild 17.12.12+1cce77968 para .NET Framework
+        CompilaÃ§Ã£o de 17/01/2025 22:05:53 iniciada.
+        
+        Projeto "D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-79spib\\cmTC_ecbb0.vcxproj" no nÃ³ 1 (destinos padrÃ£o).
+        PrepareForBuild:
+          Criando o diretÃ³rio "cmTC_ecbb0.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Criando o diretÃ³rio "D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-79spib\\Debug\\".
+          Criando o diretÃ³rio "cmTC_ecbb0.dir\\Debug\\cmTC_ecbb0.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_ecbb0.dir\\Debug\\cmTC_ecbb0.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_ecbb0.dir\\Debug\\cmTC_ecbb0.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ecbb0.dir\\Debug\\\\" /Fd"cmTC_ecbb0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33144 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ecbb0.dir\\Debug\\\\" /Fd"cmTC_ecbb0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-79spib\\Debug\\cmTC_ecbb0.exe" /INCREMENTAL /ILK:"cmTC_ecbb0.dir\\Debug\\cmTC_ecbb0.ilk" /NOLOGO /LIBPATH:"D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Repos/DiligentEngine/CMakeFiles/CMakeScratch/TryCompile-79spib/Debug/cmTC_ecbb0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Repos/DiligentEngine/CMakeFiles/CMakeScratch/TryCompile-79spib/Debug/cmTC_ecbb0.lib" /MACHINE:X64  /machine:x64 cmTC_ecbb0.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_ecbb0.vcxproj -> D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-79spib\\Debug\\cmTC_ecbb0.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\Repos\\Cpp\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-79spib\\Debug\\cmTC_ecbb0.exe" "D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\bin" "cmTC_ecbb0.dir\\Debug\\cmTC_ecbb0.tlog\\cmTC_ecbb0.write.1u.tlog" "cmTC_ecbb0.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' nÃ£o Ã© reconhecido como um comando interno
+          ou externo, um programa operÃ¡vel ou um arquivo em lotes.
+          O comando "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\Repos\\Cpp\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-79spib\\Debug\\cmTC_ecbb0.exe" "D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\bin" "cmTC_ecbb0.dir\\Debug\\cmTC_ecbb0.tlog\\cmTC_ecbb0.write.1u.tlog" "cmTC_ecbb0.dir\\Debug\\vcpkg.applocal.log"" foi encerrado com o cÃ³digo 9009.
+          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\Repos\\Cpp\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-79spib\\Debug\\cmTC_ecbb0.exe" "D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\bin" "cmTC_ecbb0.dir\\Debug\\cmTC_ecbb0.tlog\\cmTC_ecbb0.write.1u.tlog" "cmTC_ecbb0.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Excluindo o arquivo "cmTC_ecbb0.dir\\Debug\\cmTC_ecbb0.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_ecbb0.dir\\Debug\\cmTC_ecbb0.tlog\\cmTC_ecbb0.lastbuildstate".
+        Projeto de compilaÃ§Ã£o pronto "D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-79spib\\cmTC_ecbb0.vcxproj" (destinos padrÃ£o).
+        
+        CompilaÃ§Ã£o com Ãªxito.
+            0 Aviso(s)
+            0 Erro(s)
+        
+        Tempo Decorrido 00:00:00.83
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "DiligentCore/CMakeLists.txt:158 (try_compile)"
+    directories:
+      source: "D:/Repos/DiligentEngine/DiligentCore/CMakeFiles/CMakeTmp"
+      binary: "D:/Repos/DiligentEngine/DiligentCore/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAS_D3D11"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Repos/DiligentEngine/DiligentCore/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_fdd7f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        VersÃ£o do MSBuild 17.12.12+1cce77968 para .NET Framework
+        CompilaÃ§Ã£o de 17/01/2025 22:05:54 iniciada.
+        
+        Projeto "D:\\Repos\\DiligentEngine\\DiligentCore\\CMakeFiles\\CMakeTmp\\cmTC_fdd7f.vcxproj" no nÃ³ 1 (destinos padrÃ£o).
+        PrepareForBuild:
+          Criando o diretÃ³rio "cmTC_fdd7f.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Criando o diretÃ³rio "D:\\Repos\\DiligentEngine\\DiligentCore\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Criando o diretÃ³rio "cmTC_fdd7f.dir\\Debug\\cmTC_fdd7f.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_fdd7f.dir\\Debug\\cmTC_fdd7f.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_fdd7f.dir\\Debug\\cmTC_fdd7f.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_fdd7f.dir\\Debug\\\\" /Fd"cmTC_fdd7f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\Repos\\DiligentEngine\\DiligentCore\\BuildTools\\CMake\\CheckD3D11.cpp
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33144 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_fdd7f.dir\\Debug\\\\" /Fd"cmTC_fdd7f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\Repos\\DiligentEngine\\DiligentCore\\BuildTools\\CMake\\CheckD3D11.cpp
+          CheckD3D11.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Repos\\DiligentEngine\\DiligentCore\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_fdd7f.exe" /INCREMENTAL /ILK:"cmTC_fdd7f.dir\\Debug\\cmTC_fdd7f.ilk" /NOLOGO /LIBPATH:"D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Repos/DiligentEngine/DiligentCore/CMakeFiles/CMakeTmp/Debug/cmTC_fdd7f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Repos/DiligentEngine/DiligentCore/CMakeFiles/CMakeTmp/Debug/cmTC_fdd7f.lib" /MACHINE:X64  /machine:x64 cmTC_fdd7f.dir\\Debug\\CheckD3D11.obj
+          cmTC_fdd7f.vcxproj -> D:\\Repos\\DiligentEngine\\DiligentCore\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_fdd7f.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\Repos\\Cpp\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\Repos\\DiligentEngine\\DiligentCore\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_fdd7f.exe" "D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\bin" "cmTC_fdd7f.dir\\Debug\\cmTC_fdd7f.tlog\\cmTC_fdd7f.write.1u.tlog" "cmTC_fdd7f.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' nÃ£o Ã© reconhecido como um comando interno
+          ou externo, um programa operÃ¡vel ou um arquivo em lotes.
+          O comando "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\Repos\\Cpp\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\Repos\\DiligentEngine\\DiligentCore\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_fdd7f.exe" "D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\bin" "cmTC_fdd7f.dir\\Debug\\cmTC_fdd7f.tlog\\cmTC_fdd7f.write.1u.tlog" "cmTC_fdd7f.dir\\Debug\\vcpkg.applocal.log"" foi encerrado com o cÃ³digo 9009.
+          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\Repos\\Cpp\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\Repos\\DiligentEngine\\DiligentCore\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_fdd7f.exe" "D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\bin" "cmTC_fdd7f.dir\\Debug\\cmTC_fdd7f.tlog\\cmTC_fdd7f.write.1u.tlog" "cmTC_fdd7f.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Excluindo o arquivo "cmTC_fdd7f.dir\\Debug\\cmTC_fdd7f.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_fdd7f.dir\\Debug\\cmTC_fdd7f.tlog\\cmTC_fdd7f.lastbuildstate".
+        Projeto de compilaÃ§Ã£o pronto "D:\\Repos\\DiligentEngine\\DiligentCore\\CMakeFiles\\CMakeTmp\\cmTC_fdd7f.vcxproj" (destinos padrÃ£o).
+        
+        CompilaÃ§Ã£o com Ãªxito.
+            0 Aviso(s)
+            0 Erro(s)
+        
+        Tempo Decorrido 00:00:01.35
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "DiligentCore/CMakeLists.txt:159 (try_compile)"
+    directories:
+      source: "D:/Repos/DiligentEngine/DiligentCore/CMakeFiles/CMakeTmp"
+      binary: "D:/Repos/DiligentEngine/DiligentCore/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAS_D3D12"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Repos/DiligentEngine/DiligentCore/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6a41d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        VersÃ£o do MSBuild 17.12.12+1cce77968 para .NET Framework
+        CompilaÃ§Ã£o de 17/01/2025 22:05:56 iniciada.
+        
+        Projeto "D:\\Repos\\DiligentEngine\\DiligentCore\\CMakeFiles\\CMakeTmp\\cmTC_6a41d.vcxproj" no nÃ³ 1 (destinos padrÃ£o).
+        PrepareForBuild:
+          Criando o diretÃ³rio "cmTC_6a41d.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Criando o diretÃ³rio "D:\\Repos\\DiligentEngine\\DiligentCore\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Criando o diretÃ³rio "cmTC_6a41d.dir\\Debug\\cmTC_6a41d.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_6a41d.dir\\Debug\\cmTC_6a41d.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_6a41d.dir\\Debug\\cmTC_6a41d.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6a41d.dir\\Debug\\\\" /Fd"cmTC_6a41d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\Repos\\DiligentEngine\\DiligentCore\\BuildTools\\CMake\\CheckD3D12.cpp
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33144 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6a41d.dir\\Debug\\\\" /Fd"cmTC_6a41d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\Repos\\DiligentEngine\\DiligentCore\\BuildTools\\CMake\\CheckD3D12.cpp
+          CheckD3D12.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Repos\\DiligentEngine\\DiligentCore\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_6a41d.exe" /INCREMENTAL /ILK:"cmTC_6a41d.dir\\Debug\\cmTC_6a41d.ilk" /NOLOGO /LIBPATH:"D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Repos/DiligentEngine/DiligentCore/CMakeFiles/CMakeTmp/Debug/cmTC_6a41d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Repos/DiligentEngine/DiligentCore/CMakeFiles/CMakeTmp/Debug/cmTC_6a41d.lib" /MACHINE:X64  /machine:x64 cmTC_6a41d.dir\\Debug\\CheckD3D12.obj
+          cmTC_6a41d.vcxproj -> D:\\Repos\\DiligentEngine\\DiligentCore\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_6a41d.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\Repos\\Cpp\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\Repos\\DiligentEngine\\DiligentCore\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_6a41d.exe" "D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\bin" "cmTC_6a41d.dir\\Debug\\cmTC_6a41d.tlog\\cmTC_6a41d.write.1u.tlog" "cmTC_6a41d.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' nÃ£o Ã© reconhecido como um comando interno
+          ou externo, um programa operÃ¡vel ou um arquivo em lotes.
+          O comando "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\Repos\\Cpp\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\Repos\\DiligentEngine\\DiligentCore\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_6a41d.exe" "D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\bin" "cmTC_6a41d.dir\\Debug\\cmTC_6a41d.tlog\\cmTC_6a41d.write.1u.tlog" "cmTC_6a41d.dir\\Debug\\vcpkg.applocal.log"" foi encerrado com o cÃ³digo 9009.
+          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\Repos\\Cpp\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\Repos\\DiligentEngine\\DiligentCore\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_6a41d.exe" "D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\bin" "cmTC_6a41d.dir\\Debug\\cmTC_6a41d.tlog\\cmTC_6a41d.write.1u.tlog" "cmTC_6a41d.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Excluindo o arquivo "cmTC_6a41d.dir\\Debug\\cmTC_6a41d.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_6a41d.dir\\Debug\\cmTC_6a41d.tlog\\cmTC_6a41d.lastbuildstate".
+        Projeto de compilaÃ§Ã£o pronto "D:\\Repos\\DiligentEngine\\DiligentCore\\CMakeFiles\\CMakeTmp\\cmTC_6a41d.vcxproj" (destinos padrÃ£o).
+        
+        CompilaÃ§Ã£o com Ãªxito.
+            0 Aviso(s)
+            0 Erro(s)
+        
+        Tempo Decorrido 00:00:01.27
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "DiligentCore/CMakeLists.txt:160 (try_compile)"
+    directories:
+      source: "D:/Repos/DiligentEngine/DiligentCore/CMakeFiles/CMakeTmp"
+      binary: "D:/Repos/DiligentEngine/DiligentCore/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAS_ATL"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Repos/DiligentEngine/DiligentCore/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_fa18b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        VersÃ£o do MSBuild 17.12.12+1cce77968 para .NET Framework
+        CompilaÃ§Ã£o de 17/01/2025 22:05:57 iniciada.
+        
+        Projeto "D:\\Repos\\DiligentEngine\\DiligentCore\\CMakeFiles\\CMakeTmp\\cmTC_fa18b.vcxproj" no nÃ³ 1 (destinos padrÃ£o).
+        PrepareForBuild:
+          Criando o diretÃ³rio "cmTC_fa18b.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Criando o diretÃ³rio "D:\\Repos\\DiligentEngine\\DiligentCore\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Criando o diretÃ³rio "cmTC_fa18b.dir\\Debug\\cmTC_fa18b.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_fa18b.dir\\Debug\\cmTC_fa18b.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_fa18b.dir\\Debug\\cmTC_fa18b.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_fa18b.dir\\Debug\\\\" /Fd"cmTC_fa18b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\Repos\\DiligentEngine\\DiligentCore\\BuildTools\\CMake\\CheckATL.cpp
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33144 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_fa18b.dir\\Debug\\\\" /Fd"cmTC_fa18b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\Repos\\DiligentEngine\\DiligentCore\\BuildTools\\CMake\\CheckATL.cpp
+          CheckATL.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Repos\\DiligentEngine\\DiligentCore\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_fa18b.exe" /INCREMENTAL /ILK:"cmTC_fa18b.dir\\Debug\\cmTC_fa18b.ilk" /NOLOGO /LIBPATH:"D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Repos/DiligentEngine/DiligentCore/CMakeFiles/CMakeTmp/Debug/cmTC_fa18b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Repos/DiligentEngine/DiligentCore/CMakeFiles/CMakeTmp/Debug/cmTC_fa18b.lib" /MACHINE:X64  /machine:x64 cmTC_fa18b.dir\\Debug\\CheckATL.obj
+          cmTC_fa18b.vcxproj -> D:\\Repos\\DiligentEngine\\DiligentCore\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_fa18b.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\Repos\\Cpp\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\Repos\\DiligentEngine\\DiligentCore\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_fa18b.exe" "D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\bin" "cmTC_fa18b.dir\\Debug\\cmTC_fa18b.tlog\\cmTC_fa18b.write.1u.tlog" "cmTC_fa18b.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' nÃ£o Ã© reconhecido como um comando interno
+          ou externo, um programa operÃ¡vel ou um arquivo em lotes.
+          O comando "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\Repos\\Cpp\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\Repos\\DiligentEngine\\DiligentCore\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_fa18b.exe" "D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\bin" "cmTC_fa18b.dir\\Debug\\cmTC_fa18b.tlog\\cmTC_fa18b.write.1u.tlog" "cmTC_fa18b.dir\\Debug\\vcpkg.applocal.log"" foi encerrado com o cÃ³digo 9009.
+          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\Repos\\Cpp\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\Repos\\DiligentEngine\\DiligentCore\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_fa18b.exe" "D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\bin" "cmTC_fa18b.dir\\Debug\\cmTC_fa18b.tlog\\cmTC_fa18b.write.1u.tlog" "cmTC_fa18b.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Excluindo o arquivo "cmTC_fa18b.dir\\Debug\\cmTC_fa18b.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_fa18b.dir\\Debug\\cmTC_fa18b.tlog\\cmTC_fa18b.lastbuildstate".
+        Projeto de compilaÃ§Ã£o pronto "D:\\Repos\\DiligentEngine\\DiligentCore\\CMakeFiles\\CMakeTmp\\cmTC_fa18b.vcxproj" (destinos padrÃ£o).
+        
+        CompilaÃ§Ã£o com Ãªxito.
+            0 Aviso(s)
+            0 Erro(s)
+        
+        Tempo Decorrido 00:00:01.46
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "DiligentTools/ThirdParty/libpng/CMakeLists.txt:29 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33144 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      cl : Command line warning D9002 : ignoring unknown option '--version'
+      cl : Command line error D8003 : missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "DiligentTools/ThirdParty/libpng/CMakeLists.txt:29 (project)"
+    message: |
+      Checking whether the ASM compiler is AppleClang using "--version" did not match "(Apple (clang|LLVM) version)":
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33144 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      cl : Command line warning D9002 : ignoring unknown option '--version'
+      cl : Command line error D8003 : missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "DiligentTools/ThirdParty/libpng/CMakeLists.txt:29 (project)"
+    message: |
+      Checking whether the ASM compiler is Clang using "--version" did not match "(clang version)":
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33144 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      cl : Command line warning D9002 : ignoring unknown option '--version'
+      cl : Command line error D8003 : missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "DiligentTools/ThirdParty/libpng/CMakeLists.txt:29 (project)"
+    message: |
+      Checking whether the ASM compiler is ARMClang using "--version" did not match "armclang":
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33144 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      cl : Command line warning D9002 : ignoring unknown option '--version'
+      cl : Command line error D8003 : missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "DiligentTools/ThirdParty/libpng/CMakeLists.txt:29 (project)"
+    message: |
+      Checking whether the ASM compiler is OrangeC using "--version" did not match "occ \\(OrangeC\\) Version":
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33144 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      cl : Command line warning D9002 : ignoring unknown option '--version'
+      cl : Command line error D8003 : missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "DiligentTools/ThirdParty/libpng/CMakeLists.txt:29 (project)"
+    message: |
+      Checking whether the ASM compiler is HP using "-V" did not match "HP C":
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33144 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      cl : Command line error D8004 : '/V' requires an argument
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "DiligentTools/ThirdParty/libpng/CMakeLists.txt:29 (project)"
+    message: |
+      Checking whether the ASM compiler is Intel using "--version" did not match "(ICC)":
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33144 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      cl : Command line warning D9002 : ignoring unknown option '--version'
+      cl : Command line error D8003 : missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "DiligentTools/ThirdParty/libpng/CMakeLists.txt:29 (project)"
+    message: |
+      Checking whether the ASM compiler is IntelLLVM using "--version" did not match "(Intel[^
+      ]+oneAPI)":
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33144 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      cl : Command line warning D9002 : ignoring unknown option '--version'
+      cl : Command line error D8003 : missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "DiligentTools/ThirdParty/libpng/CMakeLists.txt:29 (project)"
+    message: |
+      Checking whether the ASM compiler is SunPro using "-V" did not match "Sun C":
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33144 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      cl : Command line error D8004 : '/V' requires an argument
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "DiligentTools/ThirdParty/libpng/CMakeLists.txt:29 (project)"
+    message: |
+      Checking whether the ASM compiler is XL using "-qversion" did not match "XL C":
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33144 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      cl : Command line warning D9002 : ignoring unknown option '-qversion'
+      cl : Command line error D8003 : missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1131 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "DiligentTools/ThirdParty/libpng/CMakeLists.txt:29 (project)"
+    message: |
+      Checking whether the ASM compiler is MSVC using "-?" matched "Microsoft":
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33144 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+                               C/C++ COMPILER OPTIONS
+      
+      
+                                    -OPTIMIZATION-
+      
+      /O1 maximum optimizations (favor space) /O2 maximum optimizations (favor speed)
+      /Ob<n> inline expansion (default n=0)   /Od disable optimizations (default)
+      /Og enable global optimization          /Oi[-] enable intrinsic functions
+      /Os favor code space                    /Ot favor code speed
+      /Ox optimizations (favor speed)         
+      /favor:<blend|AMD64|INTEL64|ATOM> select processor to optimize for, one of:
+          blend - a combination of optimizations for several different x64 processors
+          AMD64 - 64-bit AMD processors                                 
+          INTEL64 - Intel(R)64 architecture processors                  
+          ATOM - Intel(R) Atom(TM) processors                           
+      
+                                   -CODE GENERATION-
+      
+      /Gu[-] ensure distinct functions have distinct addresses
+      /Gw[-] separate global variables for linker
+      /GF enable read-only string pooling     /Gm[-] enable minimal rebuild
+      /Gy[-] separate functions for linker    /GS[-] enable security checks
+      /GR[-] enable C++ RTTI                  /GX[-] enable C++ EH (same as /EHsc)
+      /guard:cf[-] enable CFG (control flow guard)
+      /guard:ehcont[-] enable EH continuation metadata (CET)
+      /EHs enable C++ EH (no SEH exceptions)  /EHa enable C++ EH (w/ SEH exceptions)
+      /EHc extern "C" defaults to nothrow     
+      /EHr always generate noexcept runtime termination checks
+      /fp:<contract|except[-]|fast|precise|strict> choose floating-point model:
+          contract - consider floating-point contractions when generating code
+          except[-] - consider floating-point exceptions when generating code
+          fast - "fast" floating-point model; results are less predictable
+          precise - "precise" floating-point model; results are predictable
+          strict - "strict" floating-point model (implies /fp:except)
+      /Qfast_transcendentals generate inline FP intrinsics even with /fp:except
+      /Qspectre[-] enable mitigations for CVE 2017-5753
+      /Qpar[-] enable parallel code generation
+      /Qpar-report:1 auto-parallelizer diagnostic; indicate parallelized loops
+      /Qpar-report:2 auto-parallelizer diagnostic; indicate loops not parallelized
+      /Qvec-report:1 auto-vectorizer diagnostic; indicate vectorized loops
+      /Qvec-report:2 auto-vectorizer diagnostic; indicate loops not vectorized
+      /GL[-] enable link-time code generation 
+      /volatile:<iso|ms> choose volatile model:
+          iso - Acquire/release semantics not guaranteed on volatile accesses
+          ms  - Acquire/release semantics guaranteed on volatile accesses
+      /GA optimize for Windows Application    /Ge force stack checking for all funcs
+      /Gs[num] control stack checking calls   /Gh enable _penter function call
+      /GH enable _pexit function call         /GT generate fiber-safe TLS accesses
+      /RTC1 Enable fast checks (/RTCsu)       /RTCc Convert to smaller type checks
+      /RTCs Stack Frame runtime checking      /RTCu Uninitialized local usage checks
+      /clr[:option] compile for common language runtime, where option is:
+          pure : produce IL-only output file (no native executable code)
+          safe : produce IL-only verifiable output file
+          netcore : produce assemblies targeting .NET Core runtime
+          noAssembly : do not produce an assembly
+          nostdlib : ignore the system .NET framework directory when searching for assemblies
+          nostdimport : do not import any required assemblies implicitly
+          initialAppDomain : enable initial AppDomain behavior of Visual C++ 2002
+          implicitKeepAlive- : turn off implicit emission of System::GC::KeepAlive(this)
+      /fsanitize=address Enable address sanitizer codegen
+      /homeparams Force parameters passed in registers to be written to the stack
+      /GZ Enable stack checks (/RTCs)         /Gv __vectorcall calling convention
+      /arch:<AVX|AVX2|AVX512> minimum CPU architecture requirements, one of:
+         AVX - enable use of instructions available with AVX-enabled CPUs
+         AVX2 - enable use of instructions available with AVX2-enabled CPUs
+         AVX512 - enable use of instructions available with AVX-512-enabled CPUs
+      /QIntel-jcc-erratum enable mitigations for Intel JCC erratum
+      /Qspectre-load Enable spectre mitigations for all instructions which load memory
+      /Qspectre-load-cf Enable spectre mitigations for all control-flow instructions which load memory
+      /Qspectre-jmp[-] Enable spectre mitigations for unconditional jump instructions
+      /fpcvt:<IA|BC> FP to unsigned integer conversion compatibility
+         IA - results compatible with VCVTTSD2USI instruction
+         BC - results compatible with VS2017 and earlier compiler
+      /jumptablerdata Place jump tables for switch case statements in .rdata section
+      
+                                    -OUTPUT FILES-
+      
+      /Fa[file] name assembly listing file    /FA[scu] configure assembly listing
+      /Fd[file] name .PDB file                /Fe<file> name executable file
+      /Fm[file] name map file                 /Fo<file> name object file
+      /Fp<file> name precompiled header file  /Fr[file] name source browser file
+      /FR[file] name extended .SBR file       /Fi[file] name preprocessed file
+      /Fd: <file> name .PDB file              /Fe: <file> name executable file
+      /Fm: <file> name map file               /Fo: <file> name object file
+      /Fp: <file> name .PCH file              /FR: <file> name extended .SBR file
+      /Fi: <file> name preprocessed file      
+      /Ft<dir> location of the header files generated for #import
+      /doc[file] process XML documentation comments and optionally name the .xdc file
+      
+                                    -PREPROCESSOR-
+      
+      /AI<dir> add to assembly search path    /FU<file> import .NET assembly/module
+      /FU:asFriend<file> import .NET assembly/module as friend
+      /C don't strip comments                 /D<name>{=|#}<text> define macro
+      /E preprocess to stdout                 /EP preprocess to stdout, no #line
+      /P preprocess to file                   /Fx merge injected code to file
+      /FI<file> name forced include file      /U<name> remove predefined macro
+      /u remove all predefined macros         /I<dir> add to include search path
+      /X ignore "standard places"             
+      /PH generate #pragma file_hash when preprocessing
+      /PD print all macro definitions         
+      
+                                      -LANGUAGE-
+      
+      /std:<c++14|c++17|c++20|c++latest> C++ standard version
+          c++14 - ISO/IEC 14882:2014 (default)
+          c++17 - ISO/IEC 14882:2017
+          c++20 - ISO/IEC 14882:2020
+          c++latest - latest draft standard (feature set subject to change)
+      /permissive[-] enable some nonconforming code to compile (feature set subject to change) (on by default)
+      /Ze enable extensions (default)         /Za disable extensions
+      /ZW enable WinRT language extensions    /Zs syntax check only
+      /Zc:arg1[,arg2] C++ language conformance, where arguments can be:
+        forScope[-]           enforce Standard C++ for scoping rules
+        wchar_t[-]            wchar_t is the native type, not a typedef
+        auto[-]               enforce the new Standard C++ meaning for auto
+        trigraphs[-]          enable trigraphs (off by default)
+        rvalueCast[-]         enforce Standard C++ explicit type conversion rules
+        strictStrings[-]      disable string-literal to [char|wchar_t]*
+                              conversion (off by default)
+        implicitNoexcept[-]   enable implicit noexcept on required functions
+        threadSafeInit[-]     enable thread-safe local static initialization
+        inline[-]             remove unreferenced function or data if it is
+                              COMDAT or has internal linkage only (off by default)
+        sizedDealloc[-]       enable C++14 global sized deallocation
+                              functions (on by default)
+        throwingNew[-]        assume operator new throws on failure (off by default)
+        referenceBinding[-]   a temporary will not bind to an non-const
+                              lvalue reference (off by default)
+        twoPhase-             disable two-phase name lookup
+        ternary[-]            enforce C++11 rules for conditional operator (off by default)
+        noexceptTypes[-]      enforce C++17 noexcept rules (on by default in C++17 or later)
+        alignedNew[-]         enable C++17 alignment of dynamically allocated objects (on by default)
+        hiddenFriend[-]       enforce Standard C++ hidden friend rules (implied by /permissive-)
+        externC[-]            enforce Standard C++ rules for 'extern "C"' functions (implied by /permissive-)
+        lambda[-]             better lambda support by using the newer lambda processor (off by default)
+        tlsGuards[-]          generate runtime checks for TLS variable initialization (on by default)
+        zeroSizeArrayNew[-]   call member new/delete for 0-size arrays of objects (on by default)
+        static_assert[-]      strict handling of 'static_assert' (implied by /permissive-)
+        gotoScope[-]          cannot jump past the initialization of a variable (implied by /permissive-)
+        templateScope[-]      enforce Standard C++ template parameter shadowing rules
+        enumTypes[-]          enable Standard C++ underlying enum types (off by default)
+        checkGwOdr[-]         enforce Standard C++ one definition rule violations
+                              when /Gw has been enabled (off by default)
+        __STDC__              define __STDC__ to 1 in C
+      /await enable resumable functions extension
+      /await:strict enable standard C++20 coroutine support with earlier language versions
+      /constexpr:depth<N>     recursion depth limit for constexpr evaluation (default: 512)
+      /constexpr:backtrace<N> show N constexpr evaluations in diagnostics (default: 10)
+      /constexpr:steps<N>     terminate constexpr evaluation after N steps (default: 100000)
+      /Zi enable debugging information        /Z7 enable old-style debug info
+      /Zo[-] generate richer debugging information for optimized code (on by default)
+      /ZH:[MD5|SHA1|SHA_256] hash algorithm for calculation of file checksum in debug info (default: SHA_256)
+      /Zp[n] pack structs on n-byte boundary  /Zl omit default library name in .OBJ
+      /vd{0|1|2} disable/enable vtordisp      /vm<x> type of pointers to members
+      /std:<c11|c17> C standard version
+          c11 - ISO/IEC 9899:2011
+          c17 - ISO/IEC 9899:2018
+      /ZI enable Edit and Continue debug info 
+      /openmp enable OpenMP 2.0 language extensions
+      /openmp:experimental enable OpenMP 2.0 language extensions plus select OpenMP 3.0+ language extensions
+      /openmp:llvm OpenMP language extensions using LLVM runtime
+      
+                                    -MISCELLANEOUS-
+      
+      @<file> options response file           /?, /help print this help message
+      /bigobj generate extended object format /c compile only, no link
+      /errorReport:option deprecated. Report internal compiler errors to Microsoft
+          none - do not send report                
+          prompt - prompt to immediately send report
+          queue - at next admin logon, prompt to send report (default)
+          send - send report automatically         
+      /FC use full pathnames in diagnostics   /H<num> max external name length
+      /J default char type is unsigned        
+      /MP[n] use up to 'n' processes for compilation
+      /nologo suppress copyright message      /showIncludes show include file names
+      /Tc<source file> compile file as .c     /Tp<source file> compile file as .cpp
+      /TC compile all files as .c             /TP compile all files as .cpp
+      /V<string> set version string           /Yc[file] create .PCH file
+      /Yd put debug info in every .OBJ        /Yl[sym] inject .PCH ref for debug lib
+      /Yu[file] use .PCH file                 /Y- disable all PCH options
+      /Zm<n> max memory alloc (% of default)  /FS force to use MSPDBSRV.EXE
+      /source-charset:<iana-name>|.nnnn set source character set
+      /execution-charset:<iana-name>|.nnnn set execution character set
+      /utf-8 set source and execution character set to UTF-8
+      /validate-charset[-] validate UTF-8 files for only legal characters
+      /fastfail[-] enable fast-fail mode      /JMC[-] enable native just my code
+      /presetPadding[-] zero initialize padding for stack based class types
+      /volatileMetadata[-] generate metadata on volatile memory accesses
+      /sourcelink [file] file containing source link information
+      
+                                      -LINKING-
+      
+      /LD Create .DLL                         /LDd Create .DLL debug library
+      /LN Create a .netmodule                 /F<num> set stack size
+      /link [linker options and libraries]    /MD link with MSVCRT.LIB
+      /MT link with LIBCMT.LIB                /MDd link with MSVCRTD.LIB debug lib
+      /MTd link with LIBCMTD.LIB debug lib    
+      
+                                    -CODE ANALYSIS-
+      
+      /analyze[-] Enable native analysis      /analyze:quiet[-] No warning to console
+      /analyze:log<name> Warnings to file     /analyze:autolog Log to *.pftlog
+      /analyze:autolog:ext<ext> Log to *.<ext>/analyze:autolog- No log file
+      /analyze:WX- Warnings not fatal         /analyze:stacksize<num> Max stack frame
+      /analyze:max_paths<num> Max paths       /analyze:only Analyze, no code gen
+      
+                                    -DIAGNOSTICS-
+      
+      /diagnostics:<args,...> controls the format of diagnostic messages:
+                   classic   - retains prior format
+                   column[-] - prints column information
+                   caret[-]  - prints column and the indicated line of source
+      /Wall enable all warnings               /w   disable all warnings
+      /W<n> set warning level (default n=1)   
+      /Wv:xx[.yy[.zzzzz]] disable warnings introduced after version xx.yy.zzzzz
+      /WX treat warnings as errors            /WL enable one line diagnostics
+      /wd<n> disable warning n                /we<n> treat warning n as an error
+      /wo<n> issue warning n once             /w<l><n> set warning level 1-4 for n
+      /external:I <path>      - location of external headers
+      /external:env:<var>     - environment variable with locations of external headers
+      /external:anglebrackets - treat all headers included via <> as external
+      /external:W<n>          - warning level for external headers
+      /external:templates[-]  - evaluate warning level across template instantiation chain
+      /sdl enable additional security features and warnings
+      /options:strict unrecognized compiler options are an error
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "DiligentTools/ThirdParty/libpng/CMakeLists.txt:334 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_LD_VERSION_SCRIPT"
+    directories:
+      source: "D:/Repos/DiligentEngine/CMakeFiles/CMakeScratch/TryCompile-73zg6e"
+      binary: "D:/Repos/DiligentEngine/CMakeFiles/CMakeScratch/TryCompile-73zg6e"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_LD_VERSION_SCRIPT"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Repos/DiligentEngine/CMakeFiles/CMakeScratch/TryCompile-73zg6e'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5d2c6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        VersÃ£o do MSBuild 17.12.12+1cce77968 para .NET Framework
+        CompilaÃ§Ã£o de 17/01/2025 22:06:03 iniciada.
+        
+        Projeto "D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-73zg6e\\cmTC_5d2c6.vcxproj" no nÃ³ 1 (destinos padrÃ£o).
+        PrepareForBuild:
+          Criando o diretÃ³rio "cmTC_5d2c6.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Criando o diretÃ³rio "D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-73zg6e\\Debug\\".
+          Criando o diretÃ³rio "cmTC_5d2c6.dir\\Debug\\cmTC_5d2c6.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_5d2c6.dir\\Debug\\cmTC_5d2c6.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_5d2c6.dir\\Debug\\cmTC_5d2c6.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_LD_VERSION_SCRIPT /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5d2c6.dir\\Debug\\\\" /Fd"cmTC_5d2c6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  "-Wl,--version-script='D:/Repos/DiligentEngine/DiligentTools/ThirdParty/libpng/conftest.map'" "D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-73zg6e\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33144 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_LD_VERSION_SCRIPT /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5d2c6.dir\\Debug\\\\" /Fd"cmTC_5d2c6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  "-Wl,--version-script='D:/Repos/DiligentEngine/DiligentTools/ThirdParty/libpng/conftest.map'" "D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-73zg6e\\src.c"
+        cl : command line  error D8021: invalid numeric argument '/Wl,--version-script='D:/Repos/DiligentEngine/DiligentTools/ThirdParty/libpng/conftest.map'' [D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-73zg6e\\cmTC_5d2c6.vcxproj]
+        Projeto de compilaÃ§Ã£o pronto "D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-73zg6e\\cmTC_5d2c6.vcxproj" (destinos padrÃ£o) -- FALHA.
+        
+        FALHA da compilaÃ§Ã£o.
+        
+        "D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-73zg6e\\cmTC_5d2c6.vcxproj" (destino padrÃ£o) (1) ->
+        (ClCompile destino) -> 
+          cl : command line  error D8021: invalid numeric argument '/Wl,--version-script='D:/Repos/DiligentEngine/DiligentTools/ThirdParty/libpng/conftest.map'' [D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-73zg6e\\cmTC_5d2c6.vcxproj]
+        
+            0 Aviso(s)
+            1 Erro(s)
+        
+        Tempo Decorrido 00:00:00.29
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "DiligentTools/ThirdParty/libpng/CMakeLists.txt:347 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_SOLARIS_LD_VERSION_SCRIPT"
+    directories:
+      source: "D:/Repos/DiligentEngine/CMakeFiles/CMakeScratch/TryCompile-nz3eqs"
+      binary: "D:/Repos/DiligentEngine/CMakeFiles/CMakeScratch/TryCompile-nz3eqs"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_SOLARIS_LD_VERSION_SCRIPT"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Repos/DiligentEngine/CMakeFiles/CMakeScratch/TryCompile-nz3eqs'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_de539.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        VersÃ£o do MSBuild 17.12.12+1cce77968 para .NET Framework
+        CompilaÃ§Ã£o de 17/01/2025 22:06:04 iniciada.
+        
+        Projeto "D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-nz3eqs\\cmTC_de539.vcxproj" no nÃ³ 1 (destinos padrÃ£o).
+        PrepareForBuild:
+          Criando o diretÃ³rio "cmTC_de539.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Criando o diretÃ³rio "D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-nz3eqs\\Debug\\".
+          Criando o diretÃ³rio "cmTC_de539.dir\\Debug\\cmTC_de539.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_de539.dir\\Debug\\cmTC_de539.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_de539.dir\\Debug\\cmTC_de539.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_SOLARIS_LD_VERSION_SCRIPT /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_de539.dir\\Debug\\\\" /Fd"cmTC_de539.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  -Wl,-M -Wl,D:/Repos/DiligentEngine/DiligentTools/ThirdParty/libpng/conftest.map "D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-nz3eqs\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33144 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_SOLARIS_LD_VERSION_SCRIPT /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_de539.dir\\Debug\\\\" /Fd"cmTC_de539.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  -Wl,-M -Wl,D:/Repos/DiligentEngine/DiligentTools/ThirdParty/libpng/conftest.map "D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-nz3eqs\\src.c"
+        cl : command line  error D8021: invalid numeric argument '/Wl,-M' [D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-nz3eqs\\cmTC_de539.vcxproj]
+        Projeto de compilaÃ§Ã£o pronto "D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-nz3eqs\\cmTC_de539.vcxproj" (destinos padrÃ£o) -- FALHA.
+        
+        FALHA da compilaÃ§Ã£o.
+        
+        "D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-nz3eqs\\cmTC_de539.vcxproj" (destino padrÃ£o) (1) ->
+        (ClCompile destino) -> 
+          cl : command line  error D8021: invalid numeric argument '/Wl,-M' [D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-nz3eqs\\cmTC_de539.vcxproj]
+        
+            0 Aviso(s)
+            1 Erro(s)
+        
+        Tempo Decorrido 00:00:00.28
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "DiligentSamples/ThirdParty/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "D:/Repos/DiligentEngine/CMakeFiles/CMakeScratch/TryCompile-c3ohvi"
+      binary: "D:/Repos/DiligentEngine/CMakeFiles/CMakeScratch/TryCompile-c3ohvi"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Repos/DiligentEngine/DiligentSamples/ThirdParty/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Repos/DiligentEngine/CMakeFiles/CMakeScratch/TryCompile-c3ohvi'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2d364.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        VersÃ£o do MSBuild 17.12.12+1cce77968 para .NET Framework
+        CompilaÃ§Ã£o de 17/01/2025 22:06:07 iniciada.
+        
+        Projeto "D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-c3ohvi\\cmTC_2d364.vcxproj" no nÃ³ 1 (destinos padrÃ£o).
+        PrepareForBuild:
+          Criando o diretÃ³rio "cmTC_2d364.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Criando o diretÃ³rio "D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-c3ohvi\\Debug\\".
+          Criando o diretÃ³rio "cmTC_2d364.dir\\Debug\\cmTC_2d364.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_2d364.dir\\Debug\\cmTC_2d364.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_2d364.dir\\Debug\\cmTC_2d364.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2d364.dir\\Debug\\\\" /Fd"cmTC_2d364.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-c3ohvi\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33144 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2d364.dir\\Debug\\\\" /Fd"cmTC_2d364.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-c3ohvi\\src.c"
+          src.c
+        D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-c3ohvi\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-c3ohvi\\cmTC_2d364.vcxproj]
+        Projeto de compilaÃ§Ã£o pronto "D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-c3ohvi\\cmTC_2d364.vcxproj" (destinos padrÃ£o) -- FALHA.
+        
+        FALHA da compilaÃ§Ã£o.
+        
+        "D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-c3ohvi\\cmTC_2d364.vcxproj" (destino padrÃ£o) (1) ->
+        (ClCompile destino) -> 
+          D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-c3ohvi\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-c3ohvi\\cmTC_2d364.vcxproj]
+        
+            0 Aviso(s)
+            1 Erro(s)
+        
+        Tempo Decorrido 00:00:00.38
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "DiligentSamples/ThirdParty/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "D:/Repos/DiligentEngine/CMakeFiles/CMakeScratch/TryCompile-ruwvsd"
+      binary: "D:/Repos/DiligentEngine/CMakeFiles/CMakeScratch/TryCompile-ruwvsd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Repos/DiligentEngine/DiligentSamples/ThirdParty/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Repos/DiligentEngine/CMakeFiles/CMakeScratch/TryCompile-ruwvsd'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0101a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        VersÃ£o do MSBuild 17.12.12+1cce77968 para .NET Framework
+        CompilaÃ§Ã£o de 17/01/2025 22:06:07 iniciada.
+        
+        Projeto "D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-ruwvsd\\cmTC_0101a.vcxproj" no nÃ³ 1 (destinos padrÃ£o).
+        PrepareForBuild:
+          Criando o diretÃ³rio "cmTC_0101a.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Criando o diretÃ³rio "D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-ruwvsd\\Debug\\".
+          Criando o diretÃ³rio "cmTC_0101a.dir\\Debug\\cmTC_0101a.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_0101a.dir\\Debug\\cmTC_0101a.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_0101a.dir\\Debug\\cmTC_0101a.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0101a.dir\\Debug\\\\" /Fd"cmTC_0101a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-ruwvsd\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33144 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0101a.dir\\Debug\\\\" /Fd"cmTC_0101a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-ruwvsd\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-ruwvsd\\Debug\\cmTC_0101a.exe" /INCREMENTAL /ILK:"cmTC_0101a.dir\\Debug\\cmTC_0101a.ilk" /NOLOGO /LIBPATH:"D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\lib\\manual-link" pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Repos/DiligentEngine/CMakeFiles/CMakeScratch/TryCompile-ruwvsd/Debug/cmTC_0101a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Repos/DiligentEngine/CMakeFiles/CMakeScratch/TryCompile-ruwvsd/Debug/cmTC_0101a.lib" /MACHINE:X64  /machine:x64 cmTC_0101a.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-ruwvsd\\cmTC_0101a.vcxproj]
+        Projeto de compilaÃ§Ã£o pronto "D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-ruwvsd\\cmTC_0101a.vcxproj" (destinos padrÃ£o) -- FALHA.
+        
+        FALHA da compilaÃ§Ã£o.
+        
+        "D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-ruwvsd\\cmTC_0101a.vcxproj" (destino padrÃ£o) (1) ->
+        (Link destino) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-ruwvsd\\cmTC_0101a.vcxproj]
+        
+            0 Aviso(s)
+            1 Erro(s)
+        
+        Tempo Decorrido 00:00:00.38
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "DiligentSamples/ThirdParty/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "D:/Repos/DiligentEngine/CMakeFiles/CMakeScratch/TryCompile-79laun"
+      binary: "D:/Repos/DiligentEngine/CMakeFiles/CMakeScratch/TryCompile-79laun"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Repos/DiligentEngine/DiligentSamples/ThirdParty/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Repos/DiligentEngine/CMakeFiles/CMakeScratch/TryCompile-79laun'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e0abe.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        VersÃ£o do MSBuild 17.12.12+1cce77968 para .NET Framework
+        CompilaÃ§Ã£o de 17/01/2025 22:06:08 iniciada.
+        
+        Projeto "D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-79laun\\cmTC_e0abe.vcxproj" no nÃ³ 1 (destinos padrÃ£o).
+        PrepareForBuild:
+          Criando o diretÃ³rio "cmTC_e0abe.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Criando o diretÃ³rio "D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-79laun\\Debug\\".
+          Criando o diretÃ³rio "cmTC_e0abe.dir\\Debug\\cmTC_e0abe.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_e0abe.dir\\Debug\\cmTC_e0abe.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_e0abe.dir\\Debug\\cmTC_e0abe.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e0abe.dir\\Debug\\\\" /Fd"cmTC_e0abe.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-79laun\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33144 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e0abe.dir\\Debug\\\\" /Fd"cmTC_e0abe.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-79laun\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-79laun\\Debug\\cmTC_e0abe.exe" /INCREMENTAL /ILK:"cmTC_e0abe.dir\\Debug\\cmTC_e0abe.ilk" /NOLOGO /LIBPATH:"D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\lib\\manual-link" pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\Repos\\Cpp\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Repos/DiligentEngine/CMakeFiles/CMakeScratch/TryCompile-79laun/Debug/cmTC_e0abe.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Repos/DiligentEngine/CMakeFiles/CMakeScratch/TryCompile-79laun/Debug/cmTC_e0abe.lib" /MACHINE:X64  /machine:x64 cmTC_e0abe.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-79laun\\cmTC_e0abe.vcxproj]
+        Projeto de compilaÃ§Ã£o pronto "D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-79laun\\cmTC_e0abe.vcxproj" (destinos padrÃ£o) -- FALHA.
+        
+        FALHA da compilaÃ§Ã£o.
+        
+        "D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-79laun\\cmTC_e0abe.vcxproj" (destino padrÃ£o) (1) ->
+        (Link destino) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [D:\\Repos\\DiligentEngine\\CMakeFiles\\CMakeScratch\\TryCompile-79laun\\cmTC_e0abe.vcxproj]
+        
+            0 Aviso(s)
+            1 Erro(s)
+        
+        Tempo Decorrido 00:00:00.39
+        
+      exitCode: 1
+...

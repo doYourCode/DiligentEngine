@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Repos\DiligentEngine\_deps\gltfassets-subbuild\CMakeFiles\97a21b10bbc97e0a8c687e4260c8999e\gltfassets-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Repos\DiligentEngine\_deps\gltfassets-subbuild\CMakeFiles\97a21b10bbc97e0a8c687e4260c8999e\gltfassets-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Repos\DiligentEngine\_deps\gltfassets-subbuild\CMakeFiles\97a21b10bbc97e0a8c687e4260c8999e\gltfassets-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Repos\DiligentEngine\_deps\gltfassets-subbuild\CMakeFiles\97a21b10bbc97e0a8c687e4260c8999e\gltfassets-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Repos\DiligentEngine\_deps\gltfassets-subbuild\CMakeFiles\97a21b10bbc97e0a8c687e4260c8999e\gltfassets-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Repos\DiligentEngine\_deps\gltfassets-subbuild\CMakeFiles\97a21b10bbc97e0a8c687e4260c8999e\gltfassets-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Repos\DiligentEngine\_deps\gltfassets-subbuild\CMakeFiles\97a21b10bbc97e0a8c687e4260c8999e\gltfassets-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Repos\DiligentEngine\_deps\gltfassets-subbuild\CMakeFiles\97a21b10bbc97e0a8c687e4260c8999e\gltfassets-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Repos\DiligentEngine\_deps\gltfassets-subbuild\CMakeFiles\4e237331cfadaa2e8b71962d2707d76e\gltfassets-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Repos\DiligentEngine\_deps\gltfassets-subbuild\CMakeFiles\deca9202c2640df2840587c7247d3ef7\gltfassets-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Repos\DiligentEngine\_deps\gltfassets-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Repos\DiligentEngine\_deps\gltfassets-subbuild\CMakeFiles\gltfassets-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9E3CDD9D-AEE6-357D-A8F2-AFFCA7BB9F9B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

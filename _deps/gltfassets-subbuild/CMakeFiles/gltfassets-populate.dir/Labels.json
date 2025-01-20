@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Repos/DiligentEngine/_deps/gltfassets-subbuild/CMakeFiles/gltfassets-populate"
+		},
+		{
+			"file" : "D:/Repos/DiligentEngine/_deps/gltfassets-subbuild/CMakeFiles/deca9202c2640df2840587c7247d3ef7/gltfassets-populate.rule"
+		},
+		{
+			"file" : "D:/Repos/DiligentEngine/_deps/gltfassets-subbuild/CMakeFiles/4e237331cfadaa2e8b71962d2707d76e/gltfassets-populate-complete.rule"
+		},
+		{
+			"file" : "D:/Repos/DiligentEngine/_deps/gltfassets-subbuild/CMakeFiles/97a21b10bbc97e0a8c687e4260c8999e/gltfassets-populate-build.rule"
+		},
+		{
+			"file" : "D:/Repos/DiligentEngine/_deps/gltfassets-subbuild/CMakeFiles/97a21b10bbc97e0a8c687e4260c8999e/gltfassets-populate-configure.rule"
+		},
+		{
+			"file" : "D:/Repos/DiligentEngine/_deps/gltfassets-subbuild/CMakeFiles/97a21b10bbc97e0a8c687e4260c8999e/gltfassets-populate-download.rule"
+		},
+		{
+			"file" : "D:/Repos/DiligentEngine/_deps/gltfassets-subbuild/CMakeFiles/97a21b10bbc97e0a8c687e4260c8999e/gltfassets-populate-install.rule"
+		},
+		{
+			"file" : "D:/Repos/DiligentEngine/_deps/gltfassets-subbuild/CMakeFiles/97a21b10bbc97e0a8c687e4260c8999e/gltfassets-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/Repos/DiligentEngine/_deps/gltfassets-subbuild/CMakeFiles/97a21b10bbc97e0a8c687e4260c8999e/gltfassets-populate-patch.rule"
+		},
+		{
+			"file" : "D:/Repos/DiligentEngine/_deps/gltfassets-subbuild/CMakeFiles/97a21b10bbc97e0a8c687e4260c8999e/gltfassets-populate-test.rule"
+		},
+		{
+			"file" : "D:/Repos/DiligentEngine/_deps/gltfassets-subbuild/CMakeFiles/97a21b10bbc97e0a8c687e4260c8999e/gltfassets-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"gltfassets-populate"
+		],
+		"name" : "gltfassets-populate"
+	}
+}

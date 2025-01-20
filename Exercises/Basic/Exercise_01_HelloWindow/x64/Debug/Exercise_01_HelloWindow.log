@@ -1,0 +1,12 @@
+﻿  App.cpp
+  AppBase.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+  (compiling source file '../Exercises/Basic/Exercise_01_HelloWindow/AppBase.cpp')
+      D:\Repos\DiligentEngine\DiligentSamples\ThirdParty\glfw\include\GLFW\glfw3.h(123,1):
+      see previous definition of 'APIENTRY'
+  
+  Main.cpp
+  Generating Code...
+  Exercise_01_HelloWindow.vcxproj -> D:\Repos\DiligentEngine\x64\Debug\Exercise_01_HelloWindow.exe
+  'pwsh.exe' não é reconhecido como um comando interno
+  ou externo, um programa operável ou um arquivo em lotes.

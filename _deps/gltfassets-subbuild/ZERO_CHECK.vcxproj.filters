@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Repos\DiligentEngine\_deps\gltfassets-subbuild\CMakeFiles\deca9202c2640df2840587c7247d3ef7\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9E3CDD9D-AEE6-357D-A8F2-AFFCA7BB9F9B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

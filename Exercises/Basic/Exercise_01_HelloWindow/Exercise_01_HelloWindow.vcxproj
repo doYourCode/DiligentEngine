@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{c1be2c60-25c9-4bfd-94cd-214a7e71ffc3}</ProjectGuid>
+    <RootNamespace>Exercise01HelloWindow</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DEBUG;DEBUG;PLATFORM_WIN32=1;D3D11_SUPPORTED=1;D3D12_SUPPORTED=1;GL_SUPPORTED=1;GLES_SUPPORTED=0;VULKAN_SUPPORTED=1;METAL_SUPPORTED=0;WEBGPU_SUPPORTED=0;DILIGENT_DEVELOPMENT;DILIGENT_DEBUG;DILIGENT_RENDER_STATE_CACHE_SUPPORTED=1;ENGINE_DLL=1;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\..\..\DiligentSamples\Tutorials\Tutorial01_HelloTriangle\src;..\..\..\DiligentTools\NativeApp\include;..\..\..\DiligentTools\NativeApp\include\Win32;..\..\..\DiligentSamples\SampleBase\include;..\..\..\DiligentCore\Common\interface;..\..\..\DiligentCore\Platforms\Win32\interface;..\..\..\DiligentCore\Platforms\Basic\interface;..\..\..\DiligentCore\Primitives\interface;..\..\..\DiligentCore\Graphics\GraphicsTools\interface;..\..\..\DiligentCore\Graphics\GraphicsEngine\interface;..\..\..\DiligentTools\TextureLoader\interface;..\..\..\DiligentTools\ThirdParty\imgui;..\..\..\DiligentTools\Imgui\interface;..\..\..\DiligentCore\Graphics\GraphicsAccessories\interface;..\..\..\DiligentCore\Graphics\GraphicsEngineD3D11\interface;..\..\..\DiligentCore\Graphics\GraphicsEngineD3DBase\interface;..\..\..\DiligentCore\Graphics\GraphicsEngineD3D12\interface;..\..\..\DiligentCore\Graphics\GraphicsEngineOpenGL\interface;..\..\..\DiligentCore\Graphics\GraphicsEngineVulkan\interface;..\..\..\DiligentTools\RenderStateNotation\interface;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\..\..\DiligentTools\NativeApp\Debug\;..\..\..\DiligentSamples\SampleBase\Debug;..\..\..\DiligentTools\TextureLoader\Debug\;..\..\..\DiligentTools\ThirdParty\libpng\Debug\;..\..\..\DiligentTools\ThirdParty\libtiff\Debug\;..\..\..\DiligentTools\ThirdParty\Debug\;..\..\..\DiligentTools\ThirdParty\libjpeg-9e\Debug\;..\..\..\DiligentTools\Imgui\Debug\;..\..\..\DiligentCore\Graphics\GraphicsTools\Debug\;..\..\..\DiligentCore\ThirdParty\xxHash\cmake_unofficial\Debug\;..\..\..\DiligentCore\Graphics\Archiver\Debug\;..\..\..\DiligentCore\Graphics\GraphicsEngineVulkan\Debug\;..\..\..\DiligentCore\Graphics\GraphicsEngineOpenGL\Debug\;..\..\..\DiligentCore\Graphics\GraphicsEngineD3D11\Debug\;..\..\..\DiligentCore\Graphics\GraphicsEngineD3D12\Debug\;..\..\..\DiligentCore\Graphics\GraphicsEngineNextGenBase\Debug\;..\..\..\DiligentCore\ThirdParty\glew\Debug\;..\..\..\DiligentCore\ThirdParty\SPIRV-Cross\Debug\;..\..\..\DiligentCore\Graphics\GraphicsEngineD3DBase\Debug\;..\..\..\DiligentCore\Graphics\ShaderTools\Debug\;..\..\..\DiligentCore\Graphics\HLSL2GLSLConverterLib\Debug\;..\..\..\DiligentCore\ThirdParty\glslang\SPIRV\Debug\;..\..\..\DiligentCore\ThirdParty\glslang\glslang\Debug\;..\..\..\DiligentCore\ThirdParty\SPIRV-Tools\source\opt\Debug\;..\..\..\DiligentCore\ThirdParty\SPIRV-Tools\source\Debug\;..\..\..\DiligentCore\Graphics\GraphicsEngine\Debug\;..\..\..\DiligentCore\Graphics\GraphicsAccessories\Debug\;..\..\..\DiligentCore\Common\Debug\;..\..\..\DiligentCore\Platforms\Win32\Debug\;..\..\..\DiligentCore\Platforms\Basic\Debug\;..\..\..\DiligentCore\Primitives\Debug\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Diligent-NativeAppBase.lib;Diligent-SampleBase.lib;Diligent-TextureLoader.lib;libpng16_staticd.lib;..\..\..\DiligentCore\Common\Debug\Diligent-Common.lib;..\..\..\DiligentCore\Graphics\GraphicsTools\Debug\Diligent-GraphicsTools.lib;..\..\..\DiligentTools\RenderStateNotation\Debug\Diligent-RenderStateNotation.lib;..\..\..\\DiligentSamples\ThirdParty\glfw\src\Debug\glfw3.lib;LibTiff.lib;ZLib.lib;LibJpeg.lib;Diligent-Imgui.lib;Diligent-GraphicsTools.lib;xxhash.lib;Diligent-Archiver-static.lib;Diligent-GraphicsEngineVk-static.lib;Diligent-GraphicsEngineOpenGL-static.lib;glew-static.lib;opengl32.lib;Diligent-GraphicsEngineD3D11-static.lib;d3d11.lib;Diligent-GraphicsEngineD3D12-static.lib;Diligent-GraphicsEngineNextGenBase.lib;dxgi.lib;d3dcompiler.lib;spirv-cross-glsld.lib;Diligent-GraphicsEngineD3DBase.lib;Diligent-ShaderTools.lib;Diligent-HLSL2GLSLConverterLib.lib;spirv-cross-cored.lib;SPIRVd.lib;glslangd.lib;SPIRV-Tools-opt.lib;SPIRV-Tools.lib;Diligent-GraphicsEngine.lib;Diligent-GraphicsAccessories.lib;Diligent-Common.lib;Diligent-Win32Platform.lib;Diligent-BasicPlatform.lib;Shlwapi.lib;GraphicsEngineD3D11_64d.lib;GraphicsEngineD3D12_64d.lib;GraphicsEngineOpenGL_64d.lib;GraphicsEngineVk_64d.lib;Diligent-Primitives.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="App.cpp" />
+    <ClCompile Include="AppBase.cpp" />
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.h" />
+    <ClInclude Include="AppBase.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

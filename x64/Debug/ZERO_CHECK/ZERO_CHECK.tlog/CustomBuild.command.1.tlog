@@ -1,0 +1,10 @@
+^D:\REPOS\DILIGENTENGINE\CMAKEFILES\883B2FEA69B62E625FFDB4A906585AAA\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Repos/DiligentEngine -BD:/Repos/DiligentEngine --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Repos/DiligentEngine/DiligentEngine.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
